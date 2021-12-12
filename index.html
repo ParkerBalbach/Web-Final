@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BSU Blog</title>
+  <script type="text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <nav class="navbar">
+        <img src="bsu-logo.png" class="free-logo" alt="">
+        <ul class="link-container">
+        </ul>
+    </nav>
+  
+    <div id="formDiv">
+        <form id="blog">
+            <h1>BSU Blog</h1>
+            <label for="title" class="font">Blog Title</label>
+            <input type="text" id="title" placeholder="Title" required><br>
+            <label for="article" class="font" >Body</label>
+            <input type="text" id="article" placeholder="Speak your mind" required><br>
+            <button type="submit" class="button">Post</button>
+        </form>
+        <br>
+        <label for="retrieveKey" class="font" >Enter Title To Retrieve Blog Post</label>
+        <input type="text" id="retrieveKey" placeholder="Enter Title" required><br>
+        <button id="retrieveButton" class="button">Retrieve Blog Post</button>
+        <br>
+        <div id="retrieve"></div>
+        <br>
+        <label for="removeKey" class="font" >Enter Title To Delete Blog Post</label>
+        <input type="text" id="removeKey" placeholder="Remove Blog Post" required><br>
+        <button id="removeButton" class="button">Remove blog post</button>
+        <br>
+        <br>
+        <label for="editKey" class="font">Enter title you would like to edit</label>
+        <input type="text" id="editKey" placeholder="Enter title" required><br>
+        <label for="changedTitle" class="font">Enter new title</label>
+        <input type="text" id="changedTitle" placeholder="New Title" required><br>
+        <label for="changedBody" class="font">Enter new Text</label>
+        <input type="text" id="changedBody" placeholder="new text" required><br>
+        <button id="editButton" class="button">Edit Blog Post</button>
+
+  </div>
+</body>
+</html>

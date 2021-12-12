@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(5, 9, 252, 0.7);
+    color: rgb(245, 161, 4);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    font-family: sans-serif;
+    background: rgba(173, 173, 173, 0.7)
+}
+
+::selection {
+    background: #1b1b1b;
+    color: #fff
+}
+
+
+.font {
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
